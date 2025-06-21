@@ -6,7 +6,7 @@ A clean and responsive **Weather Forecast Web App** that allows users to check c
 
 🚀 LIVE DEMO  
 🔗 [Click Here to Try the App]
-(https://rupeshborse17.github.io/weather_app/)
+Site is live at https://rupeshborse17.github.io/Weather_App/
 
 ---
 
