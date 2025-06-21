@@ -1,0 +1,110 @@
+* {
+
+    /* 6ef786d195d828e12287a6c37459fce4 */
+    /* https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+ */
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#584f95);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 30px;
+}
+
+.weather-icon{
+    width: 175px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight:555px;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight:433px;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 44px;
+    margin-right: 20px;
+}
+
+.humidity,.wind{
+    font-size: 26.87px;
+    margin-top: 0.04px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+
+
+}
